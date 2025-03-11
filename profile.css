@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(375deg, #11d5df, rgba(32, 213, 198, 0.933));
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 100%;
+    height: 100vh;
+}
+.profile img{
+    width: 130px;
+    object-fit: cover;
+     border-radius: 50%;
+     background: linear-gradient(375deg, #11d5df, rgba(32, 213, 198, 0.933));
+     padding: 5px;
+}
+.card
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+}
+.desc{
+    font-size: 17px;
+    width: 250px;
+    text-align: center;
+}
+ul a{
+color: white;
+background: linear-gradient(375deg, #11d5df, rgba(32, 213, 198, 0.933));
+padding: 7px;
+border-radius: 50%;
+margin-right: 5px;
+}
+ul a i{
+    font-size: 20px;
+}
+ul{
+    margin-right: 30px;
+}
